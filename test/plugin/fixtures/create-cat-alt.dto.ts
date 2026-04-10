@@ -49,7 +49,7 @@ export class CreateCatDto2 {
 `;
 
 export const createCatDtoTextAltTranspiled = `var _CreateCatDto2_privateProperty;
-import * as openapi from "@nestjs/swagger";
+import * as openapi from "@lamuertepeluda/nestjs-swagger";
 import * as package from 'class-validator';
 var Status;
 (function (Status) {

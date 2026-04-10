@@ -42,7 +42,7 @@ function collectProjectReferenceSourceFiles(
 }
 
 export class ReadonlyVisitor {
-  public readonly key = '@nestjs/swagger';
+  public readonly key = '@lamuertepeluda/nestjs-swagger';
   private readonly modelClassVisitor = new ModelClassVisitor();
   private readonly controllerClassVisitor = new ControllerClassVisitor();
 

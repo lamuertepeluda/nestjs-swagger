@@ -28,7 +28,7 @@ export const parameterPropertyDtoTextTranspiled = (esmCompatible?: boolean) => {
     ? `(await import("./${fileName}${getOutputExtension(fileName)}"))`
     : `require("./${fileName}")`;
 
-  return `import * as openapi from "@nestjs/swagger";
+  return `import * as openapi from "@lamuertepeluda/nestjs-swagger";
 export class ParameterPropertyDto {
     constructor(readonlyValue, privateValue, publicValue, regularParameter, protectedValue = '1234') {
         this.readonlyValue = readonlyValue;

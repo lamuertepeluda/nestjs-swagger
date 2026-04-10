@@ -8,7 +8,7 @@ export class MetadataLoader {
   }
 
   async load(metadata: Record<string, any>) {
-    const pkgMetadata = metadata['@nestjs/swagger'];
+    const pkgMetadata = metadata['@lamuertepeluda/nestjs-swagger'];
     if (!pkgMetadata) {
       return;
     }

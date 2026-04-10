@@ -91,7 +91,7 @@ export abstract class Audit {
 `;
 
 export const createCatDtoTextAlt2Transpiled = `var _Audit_privateProperty;
-import * as openapi from "@nestjs/swagger";
+import * as openapi from "@lamuertepeluda/nestjs-swagger";
 import { CreateDateColumn, UpdateDateColumn, VersionColumn } from 'typeorm';
 export class Audit {
     constructor() {

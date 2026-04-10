@@ -67,7 +67,7 @@ export class CreateCatDto {
 }
 `;
 
-export const createCatExclusiveDtoTextTranspiled = `import * as openapi from "@nestjs/swagger";
+export const createCatExclusiveDtoTextTranspiled = `import * as openapi from "@lamuertepeluda/nestjs-swagger";
 import { IsString, IsPositive, IsNegative, Length, Matches, IsIn } from 'class-validator';
 var Status;
 (function (Status) {

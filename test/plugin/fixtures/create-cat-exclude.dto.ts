@@ -64,7 +64,7 @@ export class CreateCatDto {
 }
 `;
 
-export const createCatExcludeDtoTextTranspiled = `import * as openapi from "@nestjs/swagger";
+export const createCatExcludeDtoTextTranspiled = `import * as openapi from "@lamuertepeluda/nestjs-swagger";
 import { IsString, IsPositive, IsNegative, Length, Matches, IsIn } from 'class-validator';
 var Status;
 (function (Status) {
@@ -125,7 +125,7 @@ __decorate([
 ], CreateCatDto.prototype, "excluded", void 0);
 `;
 
-export const createCatIgnoreExcludeDtoTextTranspiled = `import * as openapi from "@nestjs/swagger";
+export const createCatIgnoreExcludeDtoTextTranspiled = `import * as openapi from "@lamuertepeluda/nestjs-swagger";
 import { IsString, IsPositive, IsNegative, Length, Matches, IsIn } from 'class-validator';
 var Status;
 (function (Status) {
