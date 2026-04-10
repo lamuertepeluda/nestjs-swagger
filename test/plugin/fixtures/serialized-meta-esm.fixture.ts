@@ -1,10 +1,12 @@
 // @ts-nocheck
 export default async () => {
   const t = {
-    ['./cats/dto/pagination-query.dto.js']:
-      await import('./cats/dto/pagination-query.dto.js'),
-    ['./cats/dto/create-cat.dto.js']:
-      await import('./cats/dto/create-cat.dto.js'),
+    ['./cats/dto/pagination-query.dto.js']: await import(
+      './cats/dto/pagination-query.dto.js'
+    ),
+    ['./cats/dto/create-cat.dto.js']: await import(
+      './cats/dto/create-cat.dto.js'
+    ),
     ['./cats/dto/tag.dto.js']: await import('./cats/dto/tag.dto.js'),
     ['./cats/classes/cat.class.js']: await import('./cats/classes/cat.class.js')
   };
